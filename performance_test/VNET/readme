@@ -1,0 +1,4 @@
+1、执行 hyper_performance.sh，开启性能模式
+
+2、进入 ping_test tcp_udp_test 执行对应run脚本
+   对应测试日志将输出至对应文件夹下的log文件中，测试数据将提取至对应txt文件中

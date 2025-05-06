@@ -1,0 +1,39 @@
+1. 测试之前
+修改/vendor/etc/hyper_android/vm_srv_cfg.pb.txt
+需要关掉Virtiofsd的cache，才能保证读写正常
+
+mount -o remount,rw /
+vi /vendor/etc/hyper_android/vm_srv_cfg.pb.txt
+加上 args: "--cache=never"
+例如：
+backends {
+  exec: "virtiofsd"
+  args: "--socket-path=/tmp/virtiofs_socket0"
+  args: "--shared-dir=/data/share/media"
+  args: "--tag=media"
+  args: "--cache=never"
+  args: "--sandbox=none"
+  args: "--security-label"
+  args: "--xattrmap=:map:security.selinux:trusted.virtiofs.:" args: "--modcaps=+sys_admin"
+}
+
+2.将bin push到平台上
+参数1表示读写测试的路径，参数2表示循环多少次取平均值
+Yocto写，Android读
+Yocto
+./iotest_server.bin  /data/share/media/ 300
+Android
+./iotest_client.bin /data/vendor/share/media/ 300
+ 
+ 
+Android写，Yocto读
+Android
+./iotest_server.bin /data/vendor/share/media/ 300
+Yocto
+./iotest_client.bin  /data/share/media/ 300
+
+3.测试输出结果
+server端的窗口会打印result
+或者在server端bin同目录下会生成iotest_results_server.csv
+
+

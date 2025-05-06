@@ -1,0 +1,172 @@
+Connecting to host 2, port 5201
+[  6] local 4294967295 port 2680404442 connected to 2 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   265 MBytes  2.22 Gbits/sec                  
+[  6]   1.00-2.00   sec   246 MBytes  2.06 Gbits/sec                  
+[  6]   2.00-3.00   sec   221 MBytes  1.85 Gbits/sec                  
+[  6]   3.00-4.00   sec   274 MBytes  2.30 Gbits/sec                  
+[  6]   4.00-5.00   sec   272 MBytes  2.28 Gbits/sec                  
+[  6]   5.00-6.00   sec   261 MBytes  2.19 Gbits/sec                  
+[  6]   6.00-7.00   sec   268 MBytes  2.25 Gbits/sec                  
+[  6]   7.00-8.00   sec   262 MBytes  2.20 Gbits/sec                  
+[  6]   8.00-9.00   sec   266 MBytes  2.23 Gbits/sec                  
+[  6]   9.00-10.00  sec   265 MBytes  2.22 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.00  sec  2.54 GBytes  2.18 Gbits/sec                  sender
+[  6]   0.00-10.00  sec  2.54 GBytes  2.18 Gbits/sec                  receiver
+
+iperf Done.
+Connecting to host 2, port 5201
+[  6] local 4294967295 port 2680404444 connected to 2 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   272 MBytes  2.28 Gbits/sec                  
+[  6]   1.00-2.00   sec   261 MBytes  2.19 Gbits/sec                  
+[  6]   2.00-3.00   sec   245 MBytes  2.06 Gbits/sec                  
+[  6]   3.00-4.00   sec   264 MBytes  2.22 Gbits/sec                  
+[  6]   4.00-5.00   sec   262 MBytes  2.20 Gbits/sec                  
+[  6]   5.00-6.00   sec   260 MBytes  2.18 Gbits/sec                  
+[  6]   6.00-7.00   sec   262 MBytes  2.19 Gbits/sec                  
+[  6]   7.00-8.00   sec   257 MBytes  2.16 Gbits/sec                  
+[  6]   8.00-9.00   sec   260 MBytes  2.18 Gbits/sec                  
+[  6]   9.00-10.00  sec   265 MBytes  2.22 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.00  sec  2.55 GBytes  2.19 Gbits/sec                  sender
+[  6]   0.00-10.00  sec  2.55 GBytes  2.19 Gbits/sec                  receiver
+
+iperf Done.
+Connecting to host 2, port 5201
+[  6] local 4294967295 port 2680404446 connected to 2 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   269 MBytes  2.25 Gbits/sec                  
+[  6]   1.00-2.00   sec   260 MBytes  2.18 Gbits/sec                  
+[  6]   2.00-3.00   sec   265 MBytes  2.22 Gbits/sec                  
+[  6]   3.00-4.00   sec   261 MBytes  2.19 Gbits/sec                  
+[  6]   4.00-5.00   sec   273 MBytes  2.29 Gbits/sec                  
+[  6]   5.00-6.00   sec   262 MBytes  2.19 Gbits/sec                  
+[  6]   6.00-7.00   sec   260 MBytes  2.18 Gbits/sec                  
+[  6]   7.00-8.00   sec   273 MBytes  2.29 Gbits/sec                  
+[  6]   8.00-9.00   sec   269 MBytes  2.26 Gbits/sec                  
+[  6]   9.00-10.00  sec   265 MBytes  2.22 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.00  sec  2.59 GBytes  2.23 Gbits/sec                  sender
+[  6]   0.00-10.00  sec  2.59 GBytes  2.23 Gbits/sec                  receiver
+
+iperf Done.
+Connecting to host 2, port 5201
+[  6] local 4294967295 port 2680404448 connected to 2 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   271 MBytes  2.27 Gbits/sec                  
+[  6]   1.00-2.00   sec   265 MBytes  2.22 Gbits/sec                  
+[  6]   2.00-3.00   sec   249 MBytes  2.09 Gbits/sec                  
+[  6]   3.00-4.00   sec   237 MBytes  1.99 Gbits/sec                  
+[  6]   4.00-5.00   sec   250 MBytes  2.10 Gbits/sec                  
+[  6]   5.00-6.00   sec   262 MBytes  2.19 Gbits/sec                  
+[  6]   6.00-7.00   sec   261 MBytes  2.19 Gbits/sec                  
+[  6]   7.00-8.00   sec   264 MBytes  2.21 Gbits/sec                  
+[  6]   8.00-9.00   sec   261 MBytes  2.19 Gbits/sec                  
+[  6]   9.00-10.00  sec   272 MBytes  2.28 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.00  sec  2.53 GBytes  2.17 Gbits/sec                  sender
+[  6]   0.00-10.00  sec  2.53 GBytes  2.17 Gbits/sec                  receiver
+
+iperf Done.
+Connecting to host 2, port 5201
+[  6] local 4294967295 port 2680404450 connected to 2 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   265 MBytes  2.23 Gbits/sec                  
+[  6]   1.00-2.00   sec   265 MBytes  2.22 Gbits/sec                  
+[  6]   2.00-3.00   sec   244 MBytes  2.05 Gbits/sec                  
+[  6]   3.00-4.00   sec   272 MBytes  2.28 Gbits/sec                  
+[  6]   4.00-5.00   sec   257 MBytes  2.16 Gbits/sec                  
+[  6]   5.00-6.00   sec   267 MBytes  2.25 Gbits/sec                  
+[  6]   6.00-7.00   sec   267 MBytes  2.24 Gbits/sec                  
+[  6]   7.00-8.00   sec   258 MBytes  2.16 Gbits/sec                  
+[  6]   8.00-9.00   sec   262 MBytes  2.20 Gbits/sec                  
+[  6]   9.00-10.00  sec   262 MBytes  2.20 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.00  sec  2.56 GBytes  2.20 Gbits/sec                  sender
+[  6]   0.00-10.00  sec  2.56 GBytes  2.20 Gbits/sec                  receiver
+
+iperf Done.
+Connecting to host 2, port 5201
+[  6] local 4294967295 port 2680404452 connected to 2 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   252 MBytes  2.11 Gbits/sec                  
+[  6]   1.00-2.00   sec   257 MBytes  2.16 Gbits/sec                  
+[  6]   2.00-3.00   sec   265 MBytes  2.23 Gbits/sec                  
+[  6]   3.00-4.00   sec   255 MBytes  2.14 Gbits/sec                  
+[  6]   4.00-5.00   sec   271 MBytes  2.27 Gbits/sec                  
+[  6]   5.00-6.00   sec   261 MBytes  2.19 Gbits/sec                  
+[  6]   6.00-7.00   sec   257 MBytes  2.15 Gbits/sec                  
+[  6]   7.00-8.00   sec   257 MBytes  2.16 Gbits/sec                  
+[  6]   8.00-9.00   sec   259 MBytes  2.18 Gbits/sec                  
+[  6]   9.00-10.00  sec   270 MBytes  2.26 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.00  sec  2.54 GBytes  2.18 Gbits/sec                  sender
+[  6]   0.00-10.01  sec  2.54 GBytes  2.18 Gbits/sec                  receiver
+
+iperf Done.
+Connecting to host 2, port 5201
+[  6] local 4294967295 port 2680404454 connected to 2 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   264 MBytes  2.21 Gbits/sec                  
+[  6]   1.00-2.00   sec   258 MBytes  2.16 Gbits/sec                  
+[  6]   2.00-3.00   sec   252 MBytes  2.11 Gbits/sec                  
+[  6]   3.00-4.00   sec   263 MBytes  2.21 Gbits/sec                  
+[  6]   4.00-5.00   sec   241 MBytes  2.02 Gbits/sec                  
+[  6]   5.00-6.00   sec   231 MBytes  1.94 Gbits/sec                  
+[  6]   6.00-7.00   sec   268 MBytes  2.25 Gbits/sec                  
+[  6]   7.00-8.00   sec   248 MBytes  2.09 Gbits/sec                  
+[  6]   8.00-9.00   sec   262 MBytes  2.19 Gbits/sec                  
+[  6]   9.00-10.00  sec   274 MBytes  2.30 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.00  sec  2.50 GBytes  2.15 Gbits/sec                  sender
+[  6]   0.00-10.00  sec  2.50 GBytes  2.15 Gbits/sec                  receiver
+
+iperf Done.
+Connecting to host 2, port 5201
+[  6] local 4294967295 port 2680404456 connected to 2 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   270 MBytes  2.26 Gbits/sec                  
+[  6]   1.00-2.00   sec   274 MBytes  2.30 Gbits/sec                  
+[  6]   2.00-3.00   sec   251 MBytes  2.11 Gbits/sec                  
+[  6]   3.00-4.00   sec   264 MBytes  2.21 Gbits/sec                  
+[  6]   4.00-5.00   sec   268 MBytes  2.25 Gbits/sec                  
+[  6]   5.00-6.00   sec   272 MBytes  2.28 Gbits/sec                  
+[  6]   6.00-7.00   sec   268 MBytes  2.25 Gbits/sec                  
+[  6]   7.00-8.00   sec   253 MBytes  2.12 Gbits/sec                  
+[  6]   8.00-9.00   sec   255 MBytes  2.14 Gbits/sec                  
+[  6]   9.00-10.00  sec   272 MBytes  2.28 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.00  sec  2.58 GBytes  2.22 Gbits/sec                  sender
+[  6]   0.00-10.00  sec  2.58 GBytes  2.22 Gbits/sec                  receiver
+
+iperf Done.
+Connecting to host 2, port 5201
+[  6] local 4294967295 port 2680404458 connected to 2 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   273 MBytes  2.29 Gbits/sec                  
+[  6]   1.00-2.00   sec   260 MBytes  2.18 Gbits/sec                  
+[  6]   2.00-3.00   sec   233 MBytes  1.96 Gbits/sec                  
+[  6]   3.00-4.00   sec   254 MBytes  2.13 Gbits/sec                  
+[  6]   4.00-5.00   sec   254 MBytes  2.13 Gbits/sec                  
+[  6]   5.00-6.00   sec   257 MBytes  2.16 Gbits/sec                  
+[  6]   6.00-7.00   sec   266 MBytes  2.24 Gbits/sec                  
+[  6]   7.00-8.00   sec   248 MBytes  2.07 Gbits/sec                  
+[  6]   8.00-9.00   sec   270 MBytes  2.27 Gbits/sec                  
+[  6]   9.00-10.00  sec   259 MBytes  2.17 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.00  sec  2.51 GBytes  2.16 Gbits/sec                  sender
+[  6]   0.00-10.00  sec  2.51 GBytes  2.16 Gbits/sec                  receiver
+
+iperf Done.
+iperf3: error - unable to send control message: Broken pipe

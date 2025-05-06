@@ -1,0 +1,15 @@
+#!/bin/bash
+DEVICE="127.0.0.1:7665"
+cpu0="cd /data; echo 800000000 | taskset -a  1 ./dhrystone"
+cpu1="cd /data; echo 800000001 | taskset -a  2 ./dhrystone"
+cpu2="cd /data; echo 800000002 | taskset -a  4 ./dhrystone"
+cpu3="cd /data; echo 800000003 | taskset -a  8 ./dhrystone"
+cpu4="cd /data; echo 800000004 | taskset -a 10 ./dhrystone"
+cpu5="cd /data; echo 800000005 | taskset -a 20 ./dhrystone"
+cpu6="cd /data; echo 800000006 | taskset -a 40 ./dhrystone"
+cpu7="cd /data; echo 800000007 | taskset -a 80 ./dhrystone"
+
+adb -s $DEVICE root
+adb -s $DEVICE push  ./dhrystone /data/dhrystone
+adb -s $DEVICE shell chmod 777 /data/dhrystone
+adb -s $DEVICE shell "$cpu2"

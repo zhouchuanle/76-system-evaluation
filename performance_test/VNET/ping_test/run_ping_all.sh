@@ -1,0 +1,98 @@
+#!/bin/bash
+
+echo "脚本默认设备序列号 YOCTO_DEV="127.0.0.1:7665" ANDROID_DEV="127.0.0.1:7666" TBOX_DEV="127.0.0.1:7667" 若有变更请手动更改"
+if [ $# -ne 7 ]; then
+    echo "Usage: $0 [number] android对应Y/T的两路ip yocto对应A/T的两路ip tbox对应A/Y的两路ip"
+    echo "eg: ./run_ping_all.sh 100 172.16.16.2 193.18.8.101 172.16.16.1 172.16.17.1 193.18.8.102 172.16.17.2"
+    exit 1
+fi
+
+rm -rf ./*log ./*.txt
+
+PING_COUNT=$1
+android_y=$2
+android_t=$3
+yocto_a=$4
+yocto_t=$5
+tbox_a=$6
+tbox_y=$7
+
+YOCTO_DEV="127.0.0.1:7665"
+ANDROID_DEV="127.0.0.1:7666"
+TBOX_DEV="127.0.0.1:7667"
+
+map_target_ip_to_system() {
+    local ip="$1"
+    case "$ip" in
+        $android_y|$android_t)
+            echo "android"
+            ;;
+        $tbox_y|$tbox_a)
+            echo "tbox"
+            ;;
+        $yocto_a|$yocto_t)
+            echo "yocto"
+            ;;
+        *)
+            echo "$ip"
+            ;;
+    esac
+}
+
+set_net_params() {
+    local device=$1
+    adb -s "$device" shell sh -c "'\
+echo 8388608 > /proc/sys/net/core/rmem_default && \
+echo 8388608 > /proc/sys/net/core/rmem_max && \
+echo 8388608 > /proc/sys/net/core/wmem_default && \
+echo 8388608 > /proc/sys/net/core/wmem_max && \
+echo 0 > /proc/sys/kernel/printk && \
+echo 0 > /proc/mtprintk'"
+}
+
+stop_stress() {
+    local device=$1
+    local stress_tool=$2
+    adb -s "$device" shell "pkill -f $stress_tool"
+}
+
+normal_ping_test() {
+    local device=$1
+    local system=$2      # System identifiers, such as yocto, android, tbox
+    local label=$3       # Test labels, such as normal, 20mem, 80cpu
+    shift 3
+    for target in "$@"; do
+        local mapped_name
+        mapped_name=$(map_target_ip_to_system "$target")
+        local log_file="/data/${system}_${label}_ping_${mapped_name}.log"
+        adb -s "$device" shell "ping -c $PING_COUNT $target | tee $log_file"
+    done
+}
+
+run_all_tests() {
+    for dev in "$YOCTO_DEV" "$ANDROID_DEV" "$TBOX_DEV"; do
+        echo "设置 $dev 网络参数..."
+        set_net_params $dev
+        echo "删除 $dev /data 下的 *_ping_*.log 文件..."
+        adb -s "$dev" shell "rm -rf /data/*_ping_*.log"
+    done
+
+    echo -e "\n====== 普通 ping 测试 ======"
+    normal_ping_test "$YOCTO_DEV" "yocto" "normal" $android_y $tbox_y
+    normal_ping_test "$ANDROID_DEV" "android" "normal" $yocto_a $tbox_a
+    normal_ping_test "$TBOX_DEV" "tbox" "normal" $yocto_t $android_t
+
+    echo -e "\n====== 所有 ping 测试完成 ======"
+}
+
+run_all_tests
+
+# 拉取日志文件，注意文件名中包含系统标识及测试标签
+adb -s $YOCTO_DEV pull /data/yocto_normal_ping_android.log
+adb -s $YOCTO_DEV pull /data/yocto_normal_ping_tbox.log
+adb -s $ANDROID_DEV pull /data/android_normal_ping_yocto.log
+adb -s $ANDROID_DEV pull /data/android_normal_ping_tbox.log
+adb -s $TBOX_DEV pull /data/tbox_normal_ping_android.log
+adb -s $TBOX_DEV pull /data/tbox_normal_ping_yocto.log
+
+./extract_ping_times.sh > extracted_times.txt

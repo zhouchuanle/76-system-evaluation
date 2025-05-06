@@ -1,0 +1,6 @@
+STREAM2 copy latency: 1.74 nanoseconds
+STREAM2 copy bandwidth: 36827.38 MB/sec
+STREAM2 copy latency: 1.81 nanoseconds
+STREAM2 copy bandwidth: 35394.61 MB/sec
+STREAM2 copy latency: 1.88 nanoseconds
+STREAM2 copy bandwidth: 34058.64 MB/sec

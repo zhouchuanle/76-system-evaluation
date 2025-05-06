@@ -1,0 +1,60 @@
+文件名: android_tbox_udp_normal.log
+5
+4.2
+4.4
+
+
+
+
+
+
+文件名: android_yocto_udp_normal.log
+0
+0
+0
+
+
+
+
+
+
+文件名: tbox_android_udp_normal.log
+0
+0
+0
+
+
+
+
+
+
+文件名: tbox_yocto_udp_normal.log
+0.13
+0
+0.055
+
+
+
+
+
+
+文件名: yocto_android_udp_normal.log
+0
+0
+0
+
+
+
+
+
+
+文件名: yocto_tbox_udp_normal.log
+28
+0.75
+0.15
+
+
+
+
+
+

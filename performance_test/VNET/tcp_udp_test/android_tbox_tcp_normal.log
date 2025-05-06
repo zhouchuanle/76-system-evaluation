@@ -1,0 +1,42 @@
+Connecting to host 193.18.8.102, port 5201
+[  6] local 193.18.8.101 port 62744 connected to 193.18.8.102 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-3.00   sec   192 MBytes   538 Mbits/sec  310   1.14 MBytes       
+[  6]   3.00-6.00   sec   195 MBytes   545 Mbits/sec    0   1.23 MBytes       
+[  6]   6.00-9.00   sec   196 MBytes   549 Mbits/sec    0   1.34 MBytes       
+[  6]   9.00-12.00  sec   196 MBytes   548 Mbits/sec    2   1.16 MBytes       
+[  6]  12.00-15.00  sec   194 MBytes   543 Mbits/sec    0   1.34 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-15.00  sec   974 MBytes   545 Mbits/sec  312             sender
+[  6]   0.00-15.02  sec   973 MBytes   543 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host 193.18.8.102, port 5201
+[  6] local 193.18.8.101 port 63792 connected to 193.18.8.102 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-3.00   sec   163 MBytes   457 Mbits/sec  678   1.32 MBytes       
+[  6]   3.00-6.00   sec   125 MBytes   348 Mbits/sec  2379   1.31 MBytes       
+[  6]   6.00-9.00   sec   197 MBytes   550 Mbits/sec    4   1.13 MBytes       
+[  6]   9.00-12.00  sec   195 MBytes   546 Mbits/sec    0   1.21 MBytes       
+[  6]  12.00-15.00  sec   196 MBytes   548 Mbits/sec    0   1.32 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-15.00  sec   876 MBytes   490 Mbits/sec  3061             sender
+[  6]   0.00-15.02  sec   875 MBytes   489 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host 193.18.8.102, port 5201
+[  6] local 193.18.8.101 port 64986 connected to 193.18.8.102 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-3.00   sec  61.6 MBytes   172 Mbits/sec  5251   1.40 MBytes       
+[  6]   3.00-6.00   sec   138 MBytes   388 Mbits/sec  1949   1.07 MBytes       
+[  6]   6.00-9.00   sec   196 MBytes   549 Mbits/sec    0   1.22 MBytes       
+[  6]   9.00-12.00  sec   195 MBytes   544 Mbits/sec    0   1.29 MBytes       
+[  6]  12.00-15.00  sec   194 MBytes   543 Mbits/sec    2   1.02 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-15.00  sec   785 MBytes   439 Mbits/sec  7202             sender
+[  6]   0.00-15.02  sec   784 MBytes   438 Mbits/sec                  receiver
+
+iperf Done.

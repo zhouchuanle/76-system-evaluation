@@ -1,0 +1,60 @@
+文件名: android_tbox_udp_normal.log
+1000
+1000
+1000
+
+
+
+
+
+
+文件名: android_yocto_udp_normal.log
+1000
+1000
+1000
+
+
+
+
+
+
+文件名: tbox_android_udp_normal.log
+318
+314
+321
+
+
+
+
+
+
+文件名: tbox_yocto_udp_normal.log
+997
+999
+999
+
+
+
+
+
+
+文件名: yocto_android_udp_normal.log
+1000
+1000
+1000
+
+
+
+
+
+
+文件名: yocto_tbox_udp_normal.log
+1000
+1000
+1000
+
+
+
+
+
+

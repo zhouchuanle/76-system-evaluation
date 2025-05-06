@@ -1,0 +1,3 @@
+执行 hyper_performance.sh,开启性能模式、
+eg:执行 ./core.sh core0 # 测试结果输出至对应.txt
+

@@ -1,0 +1,60 @@
+文件名: android_tbox_tcp_normal.log
+543
+489
+438
+
+
+
+
+
+
+文件名: android_yocto_tcp_normal.log
+3.38
+3.35
+3.36
+
+
+
+
+
+
+文件名: tbox_android_tcp_normal.log
+479
+473
+472
+
+
+
+
+
+
+文件名: tbox_yocto_tcp_normal.log
+1.49
+1.56
+1.43
+
+
+
+
+
+
+文件名: yocto_android_tcp_normal.log
+4.87
+4.63
+4.44
+
+
+
+
+
+
+文件名: yocto_tbox_tcp_normal.log
+500
+131
+144
+
+
+
+
+
+

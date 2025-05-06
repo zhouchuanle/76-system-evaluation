@@ -1,0 +1,19 @@
+; fio-rand-read.job for fiotest
+
+[global]
+name=psync-rand
+filename=fio_rand.data
+bs=4K
+direct=1
+;fdatasync=1
+numjobs=1
+time_based
+runtime=50
+;stonewall
+
+[rand_read]
+size=1Gi
+rw=randread
+ioengine=psync
+iodepth=32
+

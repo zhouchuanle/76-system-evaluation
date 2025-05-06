@@ -1,0 +1,84 @@
+type vsock interval 0 message_size 1000 times 100000 thread_num 0 port 9000 connect_cid 2.
+Client connected to cid 2 port 9000
+[9532]delay=11063.770, send_delay=8.693, recv_delay=11055.077.
+[19043]delay=12857.846, send_delay=36.384, recv_delay=12821.462.
+[48468]delay=10111.307, send_delay=13.230, recv_delay=10098.077.
+[61916]delay=10712.923, send_delay=11.385, recv_delay=10701.538.
+[79626]delay=10381.308, send_delay=13.308, recv_delay=10368.000.
+[Client][Port:9000]avg=655.553, max=12857.846, min=120.846, >=10ms:5, >=5ms:146, >=3ms:876.
+type vsock interval 0 message_size 1000 times 100000 thread_num 0 port 9000 connect_cid 2.
+Client connected to cid 2 port 9000
+[45639]delay=11412.308, send_delay=10.693, recv_delay=11401.615.
+[45671]delay=12402.077, send_delay=7.924, recv_delay=12394.153.
+[79471]delay=11222.077, send_delay=127.077, recv_delay=11095.000.
+[93940]delay=11763.615, send_delay=45.769, recv_delay=11717.846.
+[Client][Port:9000]avg=655.903, max=12402.077, min=115.693, >=10ms:4, >=5ms:120, >=3ms:784.
+type vsock interval 0 message_size 1000 times 100000 thread_num 0 port 9000 connect_cid 2.
+Client connected to cid 2 port 9000
+[16732]delay=10918.077, send_delay=7.615, recv_delay=10910.462.
+[19628]delay=14462.769, send_delay=83.461, recv_delay=14379.308.
+[23701]delay=13029.462, send_delay=9.462, recv_delay=13020.000.
+[30087]delay=14925.231, send_delay=42.231, recv_delay=14883.000.
+[74676]delay=11838.231, send_delay=10.846, recv_delay=11827.385.
+[79301]delay=11567.692, send_delay=35.615, recv_delay=11532.077.
+[96335]delay=11062.231, send_delay=10.462, recv_delay=11051.769.
+[Client][Port:9000]avg=654.410, max=14925.231, min=116.923, >=10ms:7, >=5ms:132, >=3ms:816.
+type vsock interval 0 message_size 1000 times 100000 thread_num 0 port 9000 connect_cid 2.
+Client connected to cid 2 port 9000
+[26490]delay=10104.000, send_delay=8.846, recv_delay=10095.154.
+[62570]delay=13187.923, send_delay=12.538, recv_delay=13175.385.
+[70380]delay=14864.307, send_delay=47.076, recv_delay=14817.231.
+[70698]delay=10576.539, send_delay=12.308, recv_delay=10564.231.
+[72912]delay=11076.846, send_delay=48.308, recv_delay=11028.538.
+[86121]delay=11771.692, send_delay=44.077, recv_delay=11727.615.
+[90013]delay=11028.077, send_delay=50.461, recv_delay=10977.616.
+[Client][Port:9000]avg=653.278, max=14864.307, min=111.692, >=10ms:7, >=5ms:119, >=3ms:793.
+type vsock interval 0 message_size 1000 times 100000 thread_num 0 port 9000 connect_cid 2.
+Client connected to cid 2 port 9000
+[10958]delay=12526.154, send_delay=983.385, recv_delay=11542.769.
+[14139]delay=11068.538, send_delay=9.846, recv_delay=11058.692.
+[22622]delay=15709.769, send_delay=51.692, recv_delay=15658.077.
+[47605]delay=11008.308, send_delay=12.384, recv_delay=10995.924.
+[78395]delay=10196.615, send_delay=9.230, recv_delay=10187.385.
+[88285]delay=11156.923, send_delay=11.308, recv_delay=11145.615.
+[89399]delay=10497.308, send_delay=45.231, recv_delay=10452.077.
+[Client][Port:9000]avg=650.544, max=15709.769, min=120.538, >=10ms:7, >=5ms:104, >=3ms:716.
+type vsock interval 0 message_size 1000 times 100000 thread_num 0 port 9000 connect_cid 2.
+Client connected to cid 2 port 9000
+[8595]delay=11416.924, send_delay=46.539, recv_delay=11370.385.
+[10891]delay=11096.308, send_delay=52.538, recv_delay=11043.770.
+[17199]delay=13975.616, send_delay=41.462, recv_delay=13934.154.
+[29760]delay=10511.307, send_delay=7.923, recv_delay=10503.384.
+[52840]delay=11878.077, send_delay=60.539, recv_delay=11817.538.
+[75576]delay=10345.923, send_delay=67.461, recv_delay=10278.462.
+[96284]delay=13492.077, send_delay=45.923, recv_delay=13446.154.
+[Client][Port:9000]avg=654.476, max=13975.616, min=123.692, >=10ms:7, >=5ms:135, >=3ms:807.
+type vsock interval 0 message_size 1000 times 100000 thread_num 0 port 9000 connect_cid 2.
+Client connected to cid 2 port 9000
+[27125]delay=13288.384, send_delay=7.461, recv_delay=13280.923.
+[36315]delay=11584.308, send_delay=8.616, recv_delay=11575.692.
+[38603]delay=16329.846, send_delay=57.846, recv_delay=16272.000.
+[78910]delay=11040.000, send_delay=155.616, recv_delay=10884.384.
+[79209]delay=11882.538, send_delay=69.000, recv_delay=11813.538.
+[Client][Port:9000]avg=657.477, max=16329.846, min=117.769, >=10ms:5, >=5ms:133, >=3ms:797.
+type vsock interval 0 message_size 1000 times 100000 thread_num 0 port 9000 connect_cid 2.
+Client connected to cid 2 port 9000
+[6403]delay=13899.154, send_delay=54.539, recv_delay=13844.615.
+[16240]delay=13036.308, send_delay=9.154, recv_delay=13027.154.
+[21581]delay=10023.077, send_delay=9.308, recv_delay=10013.769.
+[22255]delay=11579.616, send_delay=69.154, recv_delay=11510.462.
+[22256]delay=10771.692, send_delay=134.462, recv_delay=10637.230.
+[22904]delay=10320.077, send_delay=119.384, recv_delay=10200.693.
+[24572]delay=11420.539, send_delay=52.231, recv_delay=11368.308.
+[24606]delay=11600.231, send_delay=7.385, recv_delay=11592.846.
+[32165]delay=12206.769, send_delay=10.154, recv_delay=12196.615.
+[96487]delay=15892.923, send_delay=9.615, recv_delay=15883.308.
+[99345]delay=11337.615, send_delay=36.615, recv_delay=11301.000.
+[Client][Port:9000]avg=654.302, max=15892.923, min=123.000, >=10ms:11, >=5ms:112, >=3ms:772.
+type vsock interval 0 message_size 1000 times 100000 thread_num 0 port 9000 connect_cid 2.
+Client connected to cid 2 port 9000
+[14788]delay=10923.000, send_delay=12.539, recv_delay=10910.461.
+[23901]delay=12235.461, send_delay=8.692, recv_delay=12226.769.
+[33605]delay=14758.154, send_delay=9.539, recv_delay=14748.615.
+[70318]delay=11520.538, send_delay=32.000, recv_delay=11488.538.
+[Client][Port:9000]avg=653.719, max=14758.154, min=121.230, >=10ms:4, >=5ms:107, >=3ms:723.

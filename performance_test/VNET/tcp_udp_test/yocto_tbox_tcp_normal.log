@@ -1,0 +1,42 @@
+Connecting to host 172.16.17.2, port 5201
+[  6] local 172.16.17.1 port 64790 connected to 172.16.17.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-3.00   sec  73.8 MBytes   206 Mbits/sec  8414   1.53 MBytes       
+[  6]   3.00-6.00   sec  43.2 MBytes   121 Mbits/sec  11987   1.83 MBytes       
+[  6]   6.00-9.00   sec  46.6 MBytes   130 Mbits/sec  9309   2.56 MBytes       
+[  6]   9.00-12.00  sec  41.8 MBytes   117 Mbits/sec  14176   1.76 MBytes       
+[  6]  12.00-15.00  sec   693 MBytes  1.94 Gbits/sec  1367   1.34 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-15.00  sec   898 MBytes   502 Mbits/sec  45253             sender
+[  6]   0.00-15.01  sec   896 MBytes   500 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host 172.16.17.2, port 5201
+[  6] local 172.16.17.1 port 60758 connected to 172.16.17.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-3.00   sec  65.0 MBytes   182 Mbits/sec  11945   2.29 MBytes       
+[  6]   3.00-6.00   sec  40.0 MBytes   112 Mbits/sec  10719   1.70 MBytes       
+[  6]   6.00-9.00   sec  43.1 MBytes   121 Mbits/sec  8798   1.90 MBytes       
+[  6]   9.00-12.00  sec  43.4 MBytes   121 Mbits/sec  12648   2.11 MBytes       
+[  6]  12.00-15.00  sec  45.1 MBytes   126 Mbits/sec  9150   1.77 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-15.00  sec   237 MBytes   132 Mbits/sec  53260             sender
+[  6]   0.00-15.00  sec   234 MBytes   131 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host 172.16.17.2, port 5201
+[  6] local 172.16.17.1 port 60718 connected to 172.16.17.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-3.00   sec  87.4 MBytes   244 Mbits/sec  11615   2.14 MBytes       
+[  6]   3.00-6.00   sec  59.1 MBytes   165 Mbits/sec  11014   2.42 MBytes       
+[  6]   6.00-9.00   sec  38.0 MBytes   106 Mbits/sec  14908   2.01 MBytes       
+[  6]   9.00-12.00  sec  36.1 MBytes   101 Mbits/sec  10436   1.98 MBytes       
+[  6]  12.00-15.00  sec  40.1 MBytes   112 Mbits/sec  13916   2.58 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-15.00  sec   261 MBytes   146 Mbits/sec  61889             sender
+[  6]   0.00-15.00  sec   257 MBytes   144 Mbits/sec                  receiver
+
+iperf Done.

@@ -1,0 +1,5 @@
+系统启动后 在yocto中 执行 dmesg > /data/start.log 抓取系统启动日志
+
+Hypervisor启动时间
+时间起点日志:welcome to Nebula
+终点日志:devmgr: shell initialized

@@ -1,0 +1,8 @@
+1、开启性能模式  运行 hyper_performance.sh
+2、执行 mem_test.sh
+
+hyper+L背景
+3、在yocto执行  nbl_vm_ctl stop --vmid 0
+               nbl_vm_ctl stop --vmid 1
+   关闭android和tbox
+   在yocto侧单独执行 /data/stream -v 2 -M 64M -P 4

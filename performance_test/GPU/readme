@@ -1,0 +1,5 @@
+1、开启性能模式 执行hyper_performance.sh
+2、安装测试工具
+adb -s 127.0.0.1:7666 install --bypass-low-target-sdk-block gfxbench.apk
+--bypass-low-target-sdk-block 在不符合目标 SDK 版本要求的情况下，强制安装某个 APK 文件
+3、在android屏幕界面运行此应用，根据软件提示操作

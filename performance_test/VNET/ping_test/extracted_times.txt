@@ -1,0 +1,72 @@
+文件名: android_normal_ping_tbox.log
+0.715
+0.484
+0.484
+0.462
+0.461
+
+
+
+
+
+
+文件名: android_normal_ping_yocto.log
+0.591
+1.07
+0.521
+0.657
+0.715
+
+
+
+
+
+
+文件名: tbox_normal_ping_android.log
+0.534
+0.652
+0.521
+0.563
+0.585
+
+
+
+
+
+
+文件名: tbox_normal_ping_yocto.log
+0.989
+0.530
+2.38
+1.68
+0.701
+
+
+
+
+
+
+文件名: yocto_normal_ping_android.log
+0.599
+0.537
+1.03
+3.19
+2.01
+
+
+
+
+
+
+文件名: yocto_normal_ping_tbox.log
+4.11
+0.706
+0.678
+0.600
+0.667
+
+
+
+
+
+

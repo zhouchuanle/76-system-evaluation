@@ -1,0 +1,42 @@
+Connecting to host 172.16.17.2, port 5201
+[  6] local 172.16.17.1 port 63093 connected to 172.16.17.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  6]   0.00-3.00   sec   358 MBytes  1000 Mbits/sec  256784  
+[  6]   3.00-6.00   sec   358 MBytes  1.00 Gbits/sec  256852  
+[  6]   6.00-9.00   sec   358 MBytes  1.00 Gbits/sec  256855  
+[  6]   9.00-12.00  sec   358 MBytes  1000 Mbits/sec  256838  
+[  6]  12.00-15.00  sec   358 MBytes  1.00 Gbits/sec  256911  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  6]   0.00-15.00  sec  1.75 GBytes  1000 Mbits/sec  0.000 ms  0/1284240 (0%)  sender
+[  6]   0.00-15.01  sec  1.25 GBytes   717 Mbits/sec  0.004 ms  362243/1284002 (28%)  receiver
+
+iperf Done.
+Connecting to host 172.16.17.2, port 5201
+[  6] local 172.16.17.1 port 63557 connected to 172.16.17.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  6]   0.00-3.00   sec   357 MBytes   999 Mbits/sec  256700  
+[  6]   3.00-6.00   sec   358 MBytes  1.00 Gbits/sec  256936  
+[  6]   6.00-9.00   sec   358 MBytes  1.00 Gbits/sec  256846  
+[  6]   9.00-12.00  sec   358 MBytes  1.00 Gbits/sec  256862  
+[  6]  12.00-15.00  sec   358 MBytes  1000 Mbits/sec  256839  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  6]   0.00-15.00  sec  1.75 GBytes  1000 Mbits/sec  0.000 ms  0/1284183 (0%)  sender
+[  6]   0.00-15.00  sec  1.73 GBytes   992 Mbits/sec  0.001 ms  9652/1284183 (0.75%)  receiver
+
+iperf Done.
+Connecting to host 172.16.17.2, port 5201
+[  6] local 172.16.17.1 port 64407 connected to 172.16.17.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  6]   0.00-3.00   sec   358 MBytes  1000 Mbits/sec  256827  
+[  6]   3.00-6.00   sec   358 MBytes   999 Mbits/sec  256810  
+[  6]   6.00-9.00   sec   358 MBytes  1.00 Gbits/sec  256849  
+[  6]   9.00-12.00  sec   358 MBytes  1000 Mbits/sec  256850  
+[  6]  12.00-15.00  sec   358 MBytes  1000 Mbits/sec  256848  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  6]   0.00-15.00  sec  1.75 GBytes  1000 Mbits/sec  0.000 ms  0/1284184 (0%)  sender
+[  6]   0.00-15.00  sec  1.74 GBytes   998 Mbits/sec  0.016 ms  1961/1284184 (0.15%)  receiver
+
+iperf Done.

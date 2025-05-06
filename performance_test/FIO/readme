@@ -1,0 +1,10 @@
+1、开启性能模式 执行 hyper_performance.sh
+   检查adb devices 是否 online
+
+2、psync && libaio文件夹下包含各系统侧测试脚本，进入执行即可
+   测试结果将输出至对应文件下的log文件中
+
+
+当需要关闭android和tbox进行 hyper+YOCTO 时
+先在yocto侧执行 sysenv_test write USB_SWITCH Y #配置 USB直通到 yotco
+然后重启，重复上诉步骤即可
