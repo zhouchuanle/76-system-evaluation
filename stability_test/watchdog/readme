@@ -1,0 +1,14 @@
+
+在yocto侧执行 sysenv_test write USB_SWITCH Y #配置 USB直通到 yotco
+
+1、执行 watchdog.sh
+
+
+echo <caseId> > /sys/kernel/debug/bugfs/wdt_test
+caseId的值如下:
+1 NULL_POINTER -- 空指针
+2 KERNEL_DEADLOCK -- kernel mutex死锁
+3 DOUBLE_FREE -- 双重释放
+4 INVALID_MEMORY_ACCESS -- 无效内存访问
+5 KERNEL_HANG -- 内核hang死
+6 DISABLE_INTERRUPTS_HANG -- 关闭中断死锁

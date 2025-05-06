@@ -1,0 +1,14 @@
+执行 hyper_performance.sh 开启性能模式
+1、将ktrace.sh 推到yocto /data 中执行
+   脚本执行时间为48小时
+2、脚本执行完毕,运行 parse_ktrace.sh 
+   ktrace*.raw 拉至 ./ktrace
+   ktrace*.log 解析至 ./log_dir
+   data-all.log 包含所有次中断的时间信息
+
+可通过以下命令提取中断各时间点信息，信息介绍参考中断测试命令介绍文档
+
+grep "GEN" data-all.log | awk '{print $4}' | sed 's/:$//' >> 
+grep "B|99999" data-all.log | awk '{print $5}' | sed 's/:$//'
+grep -w "E" data-all.log | awk '{print $5}' | sed 's/:$//'
+grep "INJECT" data-all.log | awk '{print $5}' | sed 's/:$//'

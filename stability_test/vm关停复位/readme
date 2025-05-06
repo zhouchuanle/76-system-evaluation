@@ -1,0 +1,11 @@
+在yocto侧执行 sysenv_test write USB_SWITCH Y #配置 USB直通到 yotco
+
+执行脚本
+
+uos关停复位命令
+在yocto侧执行:nbl_vm_ctl stop --vmid 0  #关闭android
+            nbl_vm_ctl start --vmid 0  #开启android
+            nbl_vm_ctl stop --vmid 1   #关闭tbox
+            nbl_vm_ctl start --vmid 1  #开启tbox
+            nbl_vm_ctl restart --vmid 0  #重启android
+            nbl_vm_ctl restart --vmid 1   #重启tbox

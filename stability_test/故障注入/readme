@@ -1,0 +1,7 @@
+
+在yocto侧执行 sysenv_test write USB_SWITCH Y #配置 USB直通到 yotco
+重启
+
+执行脚本即可
+
+在yocto侧 执行 nblruncmd -t k crash 即可向hypervisor注入故障
